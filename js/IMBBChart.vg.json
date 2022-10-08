@@ -44,14 +44,14 @@
       "type": "quantitative",
       "title": "Number of Births",
       "axis": {"tickCount": 8},
-      "scale": {"type": "linear"}
+      "scale": {"type": "log"}
     },
     "y": {
       "field": "Infant_Deaths",
       "type": "quantitative",
       "title": "Number of Infant Deaths",
       "axis": {"tickCount": 8},
-      "scale": {"type": "linear"}
+      "scale": {"type": "log"}
     },
     "color":{
       "field":"Continent",
